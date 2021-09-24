@@ -1,0 +1,45 @@
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation  deps.android_mutiple_dex
+
+    implementation deps.support.app_compat
+    implementation deps.support.material
+    implementation deps.support.recyclerview
+    implementation deps.support.cardview
+    implementation deps.support.core_ktx
+//    implementation deps.navigation.fragment_ktx
+    implementation deps.room.runtime
+    implementation deps.room.rxjava2
+    implementation deps.room.coroutine
+
+    implementation deps.lifecycle.runtime
+    implementation deps.lifecycle.livedata_ktx
+    implementation deps.lifecycle.viewmodel_ktx
+    implementation deps.lifecycle.processLifeCycler
+
+    implementation deps.constraint_layout
+
+    //map
+    implementation deps.google_service
+    implementation deps.map
+
+    implementation deps.logging_interceptor
+    implementation deps.okhttp
+    implementation deps.retrofit.runtime
+    implementation deps.retrofit.gson
+    implementation deps.retrofit.rxjava
+    implementation deps.glide.runtime
+    implementation deps.rxjava2
+    implementation deps.rx_android
+
+    /*exo player*/
+    implementation deps.exoPlayer.exoPlayer_core
+    implementation deps.exoPlayer.exoPlayer_ui
+    implementation deps.exoPlayer.exoPlayer_mediasession
+
+    implementation deps.kotlin.stdlib
+    implementation deps.timber
+
+}
